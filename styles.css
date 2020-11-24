@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    color: white;
+    grid-row: hd-start / hd-end;
+    grid-column: main-start / sidebar-end;
+    background-color: rgb(0, 0, 0);
+
+}
+
+footer {
+    grid-row: ft-start / ft-end;
+    grid-column: main-start / sidebar-end;
+    background-color: rgba(0, 97, 97, 0.6);
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    grid-column: main-start / main-end;
+    color: black;
+    background: linear-gradient(#054b9ba9, #0e027ca9), url(https://images.designtrends.com/wp-content/uploads/2015/11/23041623/Metal-Background.jpg);
+    display: inline-block;
+    justify-content: center;
+}
+
+#home {
+    height: 100vh;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+#about {
+    height: 80vh;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+#teams {
+    height: 80vh;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+
+#partners {
+    height: 80vh;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+.grid {
+    display: grid;
+    margin: 0;
+    grid-template-columns: [main-start] 100% [main-end];
+    grid-template-rows: [ft-start] 100px [ft-end];
+    grid-template-rows: [hd-start] 100px [hd-end];
+
+
+}
+
+
+p {
+    padding: 1em;
+    font-size: smaller;
+}
+
+.home-container {
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.about-container {
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.team-container {
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.partner-container {
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.visit-container {
+    text-align: center;
+    display: inline-block;
+    color:black;
+    background-color: rgb(190, 190, 190);
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+
+
+.grid>* {
+    font-size: 2.3em;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hdr-left {
+    padding: .5em 1em;
+}
+
+.hdr-right {
+    display: inline-flex;
+    padding-right: 1em;
+}
+
+
+.menubar li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    top: 2px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.menubar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: .45em;
+    font-weight: bold;
+}
+
+.menubar li:hover {
+    background: rgb(37, 37, 37);
+}
+
+.menubar li ul {
+    visibility: hidden;
+    padding: 0;
+    position: absolute;
+    left: -3px;
+    text-align: left;
+}
+
+
+h1 {
+    margin-top: 2px;
+    padding-top: 1em;
+}
+
+.gamebtn{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border:0;
+    border-radius: 12px;
+}
+
+.gamebtn:hover {
+    background-color: rgb(63, 110, 197);
+}
+
+
+.partbtn{
+    cursor: pointer;
+    border:0;
+    outline: 0;
+}
+
+.icobtn {
+    background: none;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+
+
